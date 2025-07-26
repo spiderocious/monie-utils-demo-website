@@ -1,53 +1,33 @@
-# React + TypeScript + Vite
+# Monie Utils Documentation Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive documentation website for [monie-utils](https://github.com/spiderocious/monie-utils) - a comprehensive TypeScript library for money formatting, currency conversion, financial calculations, and payment processing. Built with React, TypeScript, and Tailwind CSS to showcase all 60+ utility functions with live demos and interactive examples.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interactive Documentation**: Live code examples with real-time output for every function
+- **Comprehensive Coverage**: Documentation for all currency formatting, validation, conversion, arithmetic operations, and financial calculation functions
+- **Modern UI/UX**: Clean, responsive design with smooth animations and intuitive navigation
+- **Type Safety**: Full TypeScript support with proper type definitions and interfaces
+- **Performance Optimized**: Debounced inputs, efficient search, and optimized component architecture
 
-## Expanding the ESLint configuration
+## Quick Start
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+```bash
+# Clone the repository
+git clone https://github.com/spiderocious/monie-utils-demo-website.git
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# Install dependencies
+cd monie-utils-demo-website
+npm install
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+# Start development server
+npm run dev
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Build for production
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
+Visit [monieutils.devferanmi.xyz](https://monieutils.devferanmi.xyz) to explore the live documentation and try out the interactive demos.
   {
     files: ['**/*.{ts,tsx}'],
     extends: [
