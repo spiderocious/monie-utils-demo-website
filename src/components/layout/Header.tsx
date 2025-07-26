@@ -18,9 +18,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-gradient-to-br from-primary-600 to-secondary-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">₿</span>
-            </div>
+            <img 
+              src="/logo.svg" 
+              alt="Monie Utils Logo" 
+              className="w-8 h-8"
+            />
             <span className="font-heading font-bold text-xl text-gray-900">
               Monie Utils
             </span>

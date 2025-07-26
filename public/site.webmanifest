@@ -1,0 +1,26 @@
+{
+  "name": "Monie Utils - TypeScript Money & Currency Utilities",
+  "short_name": "Monie Utils",
+  "description": "A comprehensive TypeScript library for money formatting, currency conversion, financial calculations, and payment processing",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.svg", 
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["developer", "finance", "utilities"],
+  "lang": "en",
+  "dir": "ltr"
+}

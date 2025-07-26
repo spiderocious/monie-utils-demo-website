@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://monieutils.devferanmi.xyz/sitemap.xml
+
+# Crawl-delay (optional)
+Crawl-delay: 1
+
+# Disallow certain paths if needed (currently allowing all)
+# Disallow: /admin/
+# Disallow: /private/
