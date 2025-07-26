@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Container utilities */
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-wide {
+    @apply max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-narrow {
+    @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Section utilities */
+  .section-py {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+  
+  .section-py-lg {
+    @apply py-20 sm:py-24 lg:py-32;
+  }
+
+  /* Card styles */
+  .card-hover {
+    @apply bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-xl hover:border-primary-200 transition-all duration-300;
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-white bg-gradient-to-r from-primary-600 to-primary-700 rounded-xl shadow-lg hover:shadow-xl hover:from-primary-700 hover:to-primary-800 transition-all duration-300;
+  }
+  
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-primary-700 bg-white border-2 border-primary-200 rounded-xl shadow-lg hover:shadow-xl hover:border-primary-300 hover:bg-primary-50 transition-all duration-300;
+  }
+  
+  .btn-lg {
+    @apply px-8 py-4 text-lg;
+  }
+}
