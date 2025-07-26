@@ -283,10 +283,10 @@ const LandingPage = () => {
                   <p className="text-gray-600 mb-6 leading-relaxed">{feature.description}</p>
 
                   <Link
-                    to={feature.href}
+                    to={'/docs'}
                     className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold group-hover:translate-x-2 transition-all duration-300"
                   >
-                    Learn more
+                    Check it out
                     <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>

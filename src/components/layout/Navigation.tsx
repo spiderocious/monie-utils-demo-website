@@ -55,7 +55,7 @@ export const Navigation: React.FC<NavigationProps> = ({
 
   return (
     <div className="sticky top-0 bg-gray-900 border-r border-gray-700 h-screen overflow-y-auto">
-      <div className="p-4">
+      <div className="p-4 mt-16">
         <h2 className="text-lg font-semibold text-white mb-4">Sections</h2>
         <nav className="space-y-2">
           {sections.map((section) => (
